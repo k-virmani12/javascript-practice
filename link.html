@@ -5,10 +5,65 @@
     <title>
         Link
     </title>
+    <style>
+        body {
+            background: pink;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+            border-radius: 10%;
+        }
+        
+        .active {
+            background: blueviolet;
+            color: white;
+        }
+        
+        .box {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        
+        .menu {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        [class*="menu-item"] {
+            flex: 1;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
-    This is the page.
+    <div class="box">
+        <div class="menu">
+            <span class="menu-item"><a href="">Home</a></span>
+            <span class="menu-item"><a href="">Order Status</a></span>
+            <span class="menu-item"><a href="">Tweets</a></span>
+            <span class="menu-item"><a href="">Contact Us</a></span>
+        </div>
+        <div class="data">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <a href="">cursus</a> porta egestas. Vestibulum in risus sit amet nisi mattis iaculis eu vel nisi. Nulla et eleifend metus. Pellentesque laoreet lacus vitae scelerisque ultricies. In hendrerit ex eu nisi sagittis, at egestas ante ultricies.
+                Fusce auctor, leo nec commodo rhoncus, enim odio iaculis sem, a eleifend turpis felis sagittis quam. Duis laoreet et urna ac dignissim. Cras in nisi tempus, interdum lectus vel, mollis ex. Nunc non dapibus ipsum, ut luctus risus.
+            </p>
+            <p>Pellentesque velit neque, luctus ut vulputate in, finibus eu magna. Etiam lacinia ante et ex blandit, ut efficitur magna eleifend. Nunc vel molestie magna. Nulla quis arcu quis diam semper consequat. Maecenas malesuada convallis viverra. Nam
+                fringilla ligula turpis, a fermentum nisi malesuada vitae.<a href="">Nulla</a> vel lorem at metus ornare blandit. Nullam ac lacinia est. Integer sit amet est nisl. Suspendisse viverra gravida lorem, ac pharetra sapien convallis id. Suspendisse
+                maximus risus vel enim venenatis, nec accumsan mi tempus. Vivamus quis rutrum lacus.</p>
+            <p> Cras sollicitudin quam sed eleifend posuere. <a href="">Nunc</a> in neque sagittis urna tempor rutrum. Fusce nisl diam, placerat a leo ut, tempor ornare elit. Sed pharetra purus id magna dignissim, a pulvinar odio feugiat. In aliquet aliquet
+                facilisis. Curabitur accumsan neque sapien, vitae tristique ligula hendrerit ac. Phasellus et nunc nec dui vulputate consectetur eget ac turpis. Curabitur bibendum lorem erat, cursus congue sapien pellentesque vel. Nullam turpis sapien,
+                tristique eu odio ut, iaculis venenatis eros. Sed hendrerit pharetra sapien non elementum. Curabitur sollicitudin placerat lacus, a ullamcorper erat placerat vel.
+            </p>
+        </div>
+    </div>
+    <script rel="text/javasript" src="linknav.js"></script>
 </body>
 
 </html>
